@@ -1,8 +1,7 @@
 // java.util.* has been imported for this problem.
 // You don't need any other imports.
 /*
-Given a
-Binary Search Tree, return the node with the maximum data.
+Given a Tree, return the node with the maximum data.
 */
 public TreeNode findMax(TreeNode root) {
     if(root == null){
