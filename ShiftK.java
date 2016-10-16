@@ -8,7 +8,7 @@ public static int[] rotateLeft(int[] arr, int k) {
     int numShifts = k % arr.length;
     //Reverse the array the entire array
     reverse(arr,0,arr.length-1);
-    //Undo the reversal from the beginning of the array to index before where the original first element 
+    //Undo the reversal from the beginning of thexs array to index before where the original first element 
     //in the array should end
     reverse(arr,0,arr.length-1-numShifts);
     //Undo the reversal for the other part of the array
